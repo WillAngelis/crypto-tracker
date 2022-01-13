@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Crypto.module.css';
 
 const Crypto = ({
@@ -11,6 +12,8 @@ const Crypto = ({
   id,
 }) => {
   return (
+    <Link href="/coin/[id]" as={`/coin/${id}`}>
+      <a>
         <div className={styles.coin_container}>
           <div className={styles.coin_row}>
             <div className={styles.coin}>
@@ -32,6 +35,8 @@ const Crypto = ({
             </div>
           </div>
         </div>
+      </a>
+    </Link>
   );
 };
 
