@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trackeador de Criptomoedas
 
-## Getting Started
+Um trackeador de preços das criptomoedas utilizando React, NextJS.
 
-First, run the development server:
+## Tela Inicial Web
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![Screenshot](./readme/img/web.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tela Inicial Mobile
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="./readme/img/mobile.png" width="200" height="400" />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O site está hospedado na vercel você pode acessa-lo por este link https://cep-gamma.vercel.app/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Stack utilizada
 
-## Learn More
+**Front-end:** ReactJs,NextJS Css e HTML5
 
-To learn more about Next.js, take a look at the following resources:
+**Misc:** Consumo de API e Conventional Commits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Aprendizados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Uso do NextJs para facilitar navegação de paginas
+- Uso do Hook UseState do React
+- Consumo da API do coingecko
+- Conventional Commits para facilitar a leitura de commits
 
-## Deploy on Vercel
+## Como usar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para iniciar a busca digite uma criptomoeda no campo de busca
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Então o site ira fazer a busca da criptomoeda informada
+
+Atenção atualmente o site possui apenas as 10 moedas mais revelantes.
+
+![Screenshot](./readme/img/web2.png)
+
+![Screenshot](./readme/img/animate.gif)
+
+
+## Mobile
+
+![Screenshot](./readme/img/animate2.gif)
+
+A versão mobile está toda responsiva e o uso é o mesmo da versão desktop
