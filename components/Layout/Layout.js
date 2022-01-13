@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from './Layout.module.css';
 
 const Layout = ({ children, title = 'Crypto Tracker' }) => {
   return (
