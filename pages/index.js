@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CoinList from '../components/CoinsList';
-import Layout from '../components/Layout/Layout';
+import Layout from '../components/Layout/';
 import SearchBar from '../components/SearchBar/';
 
 export default function Home({ filteredCoins }) {
