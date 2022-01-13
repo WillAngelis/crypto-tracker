@@ -8,7 +8,8 @@ Um trackeador de preços das criptomoedas utilizando React, NextJS.
 
 ## Tela Inicial Mobile
 
-<img src="./readme/img/mobile.png" width="200" height="400" />
+<img src="./readme/img/mobile1.png" width="200" height="400" />
+<img src="./readme/img/mobile2.png" width="200" height="400" />
 
 O site está hospedado na vercel você pode acessa-lo por este link https://cep-gamma.vercel.app/
 
@@ -36,7 +37,6 @@ Atenção atualmente o site possui apenas as 10 moedas mais revelantes.
 ![Screenshot](./readme/img/web2.png)
 
 ![Screenshot](./readme/img/animate.gif)
-
 
 ## Mobile
 
