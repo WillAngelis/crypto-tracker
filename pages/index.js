@@ -1,14 +1,16 @@
 import CoinList from '../components/CoinsList';
+import Layout from '../components/Layout/Layout';
 import SearchBar from '../components/SearchBar';
+
 
 export default function Home(filteredCoins) {
   return (
-    <div>
-      <div>
+    <Layout>
+      <div className="coin_app">
         <SearchBar type="text" placeholder="Search" />
         <CoinList filteredCoins={filteredCoins} />
       </div>
-    </div>
+    </Layout>
   );
 }
 
