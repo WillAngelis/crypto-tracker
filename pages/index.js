@@ -1,12 +1,12 @@
-import Crypto from '../components/Crypto';
+import CoinList from '../components/CoinsList';
 import SearchBar from '../components/SearchBar';
 
-export default function Home() {
+export default function Home(filteredCoins) {
   return (
     <div>
       <div>
         <SearchBar type="text" placeholder="Search" />
-        <Crypto />
+        <CoinList filteredCoins={filteredCoins} />
       </div>
     </div>
   );
