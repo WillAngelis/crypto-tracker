@@ -19,3 +19,19 @@ body {
   margin-top: 10px;
   color: #fff;
 }
+.layout {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 520px){
+  .header svg {
+    width: 150px;
+    height: 150px;
+  }
+}
